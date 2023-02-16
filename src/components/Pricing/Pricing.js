@@ -50,7 +50,7 @@ const Pricing = () => {
       </h2>
       <div className="grid md:grid-cols-3 gap-3 mt-4">
         {pricingOptions.map((option) => (
-          <PricingOption key={option.key} option={option}></PricingOption>
+          <PricingOption key={option.id} option={option}></PricingOption>
         ))}
       </div>
     </div>
